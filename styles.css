@@ -3,13 +3,27 @@
     color: dimgray;
     font-size: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: left;
+    box-sizing: border-box;
+}
+
+body {
+    width: 800px;
+    margin: 10px auto;
 }
 
 h1 {
     font-size: 36px;
+    text-align: center;
 }
 
 h2 {
     font-size: 28px;
+}
+
+ul,
+ol {
+    width: 400px;
+    margin: 0px auto;
+    padding: 10px 10px 10px 140px;
+    font-size: 20px;
 }
